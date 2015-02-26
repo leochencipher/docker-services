@@ -1,5 +1,7 @@
 # logspout
 
+## forked and modified 2015-02-26
+
 > Docker Hub automated builds for `gliderlabs/logspout:latest` and `progrium/logspout:latest` are now pointing to the `release` branch. For `master`, use `gliderlabs/logspout:master`. Individual versions are also available as saved images in [releases](https://github.com/gliderlabs/logspout/releases).
 
 A log router for Docker container output that runs entirely inside Docker. It attaches to all containers on a host, then routes their logs wherever you want.
