@@ -1,0 +1,2 @@
+docker run -d -p 8000:8000 -v=/var/run/docker.sock:/tmp/docker.sock gliderlabs/logspout redis://54.152.173.248:6379
+docker run -d -p 8000:8000 -v=/var/run/docker.sock:/tmp/docker.sock gliderlabs/logspout $logspout_out
